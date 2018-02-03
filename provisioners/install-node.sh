@@ -10,6 +10,7 @@ sudo apt-get install -y nodejs
 sudo npm install -g pm2
 #start TodoList app as a service
 cd /vagrant
+npm install --no-bin-links
 pm2 start ecosystem.config.js
 #wait 5
 sleep 5
