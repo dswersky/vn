@@ -4,7 +4,7 @@ module.exports = {
     script : "./server.js",
     watch: true,
     wait_ready: true,
-    listen_timeout: 3000,
+    listen_timeout: 5000,
     watch_options : {"usePolling": true}
   }]
 }
